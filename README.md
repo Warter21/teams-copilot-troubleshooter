@@ -197,4 +197,4 @@ Answer generation accounts for approximately 90.2% of mean final-build latency a
 - The deterministic precheck only evaluates fields it can extract from the user's question. Unknown license or policy state is routed to an administrator.
 - This is a prototype, not a tenant-connected support service. It does not access meeting transcripts, calendars, Teams settings, or user identities.
 - Evaluation keyword and citation metrics are reproducible indicators, not a substitute for human review of answer correctness.
-- The supplied final Ollama smoke and 15-question evaluation passed and are included as raw JSON. In this packaging workspace, Python compilation and JSON consistency checks were run; the local LangGraph, Streamlit, FastEmbed, Docker, and Ollama runtime is unavailable for another end-to-end execution.
+- The supplied final Ollama smoke and 15-question evaluation passed and are included as raw JSON.
