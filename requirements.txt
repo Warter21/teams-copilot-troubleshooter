@@ -1,0 +1,6 @@
+langgraph==1.2.18
+streamlit==1.63.0
+fastembed==0.9.1
+numpy>=1.26,<3
+httpx>=0.28,<1
+beautifulsoup4>=4.13,<5

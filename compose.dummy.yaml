@@ -1,0 +1,16 @@
+services:
+  app-dummy:
+    build: .
+    environment:
+      LLM_BACKEND: mock
+      MODEL_NAME: dummy
+      EMBEDDING_BACKEND: hash
+      MAX_CONTEXT_CHARS: 6000
+      MAX_ANSWER_TOKENS: 128
+      RETRIEVAL_TOP_K: 5
+    ports:
+      - "8502:8501"
+    volumes:
+      - ./data/cache:/app/data/cache
+      - ./reports/generated:/app/reports/generated
+    restart: unless-stopped
