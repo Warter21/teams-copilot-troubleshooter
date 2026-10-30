@@ -1,0 +1,74 @@
+[
+  {
+    "source_id": "MS-COPILOT-MEETINGS",
+    "title": "Catch up on meetings with Microsoft Copilot in Teams",
+    "url": "https://support.microsoft.com/en-us/teams/copilot/catch-up-on-meetings-with-microsoft-365-copilot-in-teams",
+    "area": "meeting_copilot",
+    "source_type": "Microsoft Support",
+    "reviewed_on": "2026-10-30"
+  },
+  {
+    "source_id": "MS-MEETING-OPTIONS",
+    "title": "Meeting options in Microsoft Teams",
+    "url": "https://support.microsoft.com/en-us/teams/meetings/meeting-options-in-microsoft-teams",
+    "area": "meeting_copilot",
+    "source_type": "Microsoft Support",
+    "reviewed_on": "2026-10-30"
+  },
+  {
+    "source_id": "MS-COPILOT-ADMIN",
+    "title": "Manage Microsoft Copilot in Teams meetings and events",
+    "url": "https://learn.microsoft.com/en-us/microsoftteams/copilot-teams-transcription",
+    "area": "meeting_copilot",
+    "source_type": "Microsoft Learn",
+    "reviewed_on": "2026-10-30"
+  },
+  {
+    "source_id": "MS-COPILOT-NO-TRANSCRIPT",
+    "title": "Use Copilot without transcribing or recording a Teams meeting or call",
+    "url": "https://support.microsoft.com/en-us/teams/copilot/use-copilot-without-transcribing-or-recording-a-teams-meeting-or-call",
+    "area": "meeting_copilot",
+    "source_type": "Microsoft Support",
+    "reviewed_on": "2026-10-30"
+  },
+  {
+    "source_id": "MS-INTELLIGENT-RECAP-NO-TRANSCRIPT",
+    "title": "Use intelligent recap in Microsoft Teams meetings without transcription",
+    "url": "https://support.microsoft.com/en-gb/teams/meetings/use-intelligent-recap-microsoft-teams-meetings-without-transcription",
+    "area": "recap",
+    "source_type": "Microsoft Support",
+    "reviewed_on": "2026-10-30"
+  },
+  {
+    "source_id": "MS-MEETING-RECAP-APP",
+    "title": "Get started with the Meeting Recaps app in Microsoft Teams",
+    "url": "https://support.microsoft.com/en-us/teams/meetings/meeting-recap-app-teams",
+    "area": "recap",
+    "source_type": "Microsoft Support",
+    "reviewed_on": "2026-10-30"
+  },
+  {
+    "source_id": "MS-FACILITATOR",
+    "title": "Facilitator in Microsoft Teams meetings",
+    "url": "https://support.microsoft.com/en-us/teams/copilot/facilitator-in-microsoft-teams-meetings",
+    "area": "facilitator",
+    "source_type": "Microsoft Support",
+    "reviewed_on": "2026-10-30"
+  },
+  {
+    "source_id": "MS-INTERPRETER",
+    "title": "Interpreter in Microsoft Teams meetings and calls",
+    "url": "https://support.microsoft.com/en-us/teams/copilot/interpreter-in-microsoft-teams-meetings-and-calls",
+    "area": "interpreter",
+    "source_type": "Microsoft Support",
+    "reviewed_on": "2026-10-30"
+  },
+  {
+    "source_id": "MS-INTERPRETER-ADMIN",
+    "title": "Manage Interpreter agent for your organization",
+    "url": "https://learn.microsoft.com/en-us/microsoftteams/interpreter-agent-teams",
+    "area": "interpreter",
+    "source_type": "Microsoft Learn",
+    "reviewed_on": "2026-10-30"
+  }
+]
