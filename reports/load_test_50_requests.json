@@ -1,0 +1,42 @@
+{
+  "generated_at": "2026-10-30T13:13:37.290100+00:00",
+  "platform": "Linux-6.12.100+deb13-amd64-x86_64-with-glibc2.41",
+  "python": "3.11.18",
+  "llm_backend": "ollama",
+  "embedding_backend": "fastembed",
+  "model_name": "qwen3:0.6b",
+  "max_answer_tokens": 256,
+  "request_count": 50,
+  "warmup_requests": 1,
+  "first_warmup_elapsed_ms": 11847.84,
+  "successful_requests": 50,
+  "failed_requests": 0,
+  "truncated_responses": 0,
+  "generation_truncated_responses": 0,
+  "final_truncated_responses": 0,
+  "fallback_responses": 3,
+  "answer_method_counts": {
+    "deterministic_diagnostic": 34,
+    "curated_hungarian": 13,
+    "evidence_fallback": 3
+  },
+  "concurrency": 1,
+  "wall_time_seconds": 155.463,
+  "throughput_requests_per_second": 0.3216,
+  "latency_ms": {
+    "mean": 3109.25,
+    "p50": 281.47,
+    "p95": 12271.37,
+    "max": 94894.39
+  },
+  "mean_stage_latency_ms": {
+    "answer": 2803.66,
+    "rag": 291.88,
+    "diagnostic": 7.4,
+    "triage": 0.08,
+    "plan": 0.01
+  },
+  "slowest_mean_stage": "answer",
+  "failures": [],
+  "interpretation": "The selected backend is recorded above. Use backend=ollama for end-to-end model latency; backend=mock is an orchestration-only baseline."
+}

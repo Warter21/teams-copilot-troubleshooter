@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "llm_backend": "ollama",
+  "embedding_backend": "fastembed",
+  "model_name": "qwen3:0.6b",
+  "max_answer_tokens": 256,
+  "generation_done_reason": "stop",
+  "generation_truncated": false,
+  "answer_truncated": false,
+  "answer_fallback_used": true,
+  "answer_method": "evidence_fallback",
+  "elapsed_ms": 108287.49,
+  "answer_char_count": 282,
+  "evidence_count": 5,
+  "diagnostic_count": 1,
+  "workflow_nodes": [
+    "1. Triage",
+    "2. Plan",
+    "3. RAG subgraph",
+    "4. Diagnostic tool",
+    "5. Evidence review and answer"
+  ],
+  "answer": "The Interpreter article lists English, Spanish, Portuguese, Japanese, Simplified Chinese (Mandarin), Italian, German, French, Korean, and Taiwanese as supported interpretation output languages. Some spoken languages may be recognized without guaranteed interpretation accuracy. [S1]"
+}

@@ -1,0 +1,521 @@
+{
+  "generated_at": "2026-10-30T12:41:44.202021+00:00",
+  "llm_backend": "ollama",
+  "embedding_backend": "fastembed",
+  "model_name": "qwen3:0.6b",
+  "max_answer_tokens": 256,
+  "question_count": 15,
+  "source_hit_rate_at_k": 1.0,
+  "expected_card_hit_rate_at_k": 1.0,
+  "expected_term_hit_rate": 1.0,
+  "citation_presence_rate": 1.0,
+  "truncated_answer_count": 0,
+  "generation_truncated_count": 0,
+  "final_truncated_answer_count": 0,
+  "fallback_answer_count": 1,
+  "answer_method_counts": {
+    "deterministic_diagnostic": 10,
+    "curated_hungarian": 4,
+    "evidence_fallback": 1
+  },
+  "answerable_question_count": 15,
+  "results": [
+    {
+      "id": "Q01",
+      "query": "What does the Only during the meeting setting mean for Copilot after a Teams meeting?",
+      "expected_source_ids": [
+        "MS-COPILOT-MEETINGS",
+        "MS-MEETING-OPTIONS"
+      ],
+      "retrieved_source_ids": [
+        "MS-COPILOT-ADMIN",
+        "MS-COPILOT-MEETINGS",
+        "MS-COPILOT-NO-TRANSCRIPT",
+        "MS-MEETING-OPTIONS"
+      ],
+      "expected_card_ids": [
+        "C01",
+        "C02",
+        "C04"
+      ],
+      "retrieved_card_ids": [
+        "C01",
+        "C02",
+        "C04",
+        "C05",
+        "C06"
+      ],
+      "source_hit": true,
+      "card_hit": true,
+      "expected_term_hit": true,
+      "citation_present": true,
+      "generation_done_reason": "not_applicable",
+      "generation_truncated": false,
+      "answer_truncated": false,
+      "answer_fallback_used": false,
+      "answer_method": "deterministic_diagnostic",
+      "answerable": true,
+      "answer": "Only during the meeting allows live Copilot use without a saved transcript. After the meeting, spoken content requires an available transcript; without one, only meeting chat content is available. [S3] [S4]"
+    },
+    {
+      "id": "Q02",
+      "query": "Can I get an intelligent recap after a scheduled meeting if nobody saved a transcript?",
+      "expected_source_ids": [
+        "MS-INTELLIGENT-RECAP-NO-TRANSCRIPT"
+      ],
+      "retrieved_source_ids": [
+        "MS-COPILOT-ADMIN",
+        "MS-COPILOT-MEETINGS",
+        "MS-INTELLIGENT-RECAP-NO-TRANSCRIPT",
+        "MS-MEETING-RECAP-APP"
+      ],
+      "expected_card_ids": [
+        "C07"
+      ],
+      "retrieved_card_ids": [
+        "C01",
+        "C02",
+        "C05",
+        "C07",
+        "C08"
+      ],
+      "source_hit": true,
+      "card_hit": true,
+      "expected_term_hit": true,
+      "citation_present": true,
+      "generation_done_reason": "not_applicable",
+      "generation_truncated": false,
+      "answer_truncated": false,
+      "answer_fallback_used": false,
+      "answer_method": "deterministic_diagnostic",
+      "answerable": true,
+      "answer": "A scheduled meeting can have an intelligent recap without a saved transcript when the feature is enabled and licensing and organization policy allow it. This no-transcription recap path is not supported for instant meetings. [S1] [S3]"
+    },
+    {
+      "id": "Q03",
+      "query": "Does Teams meeting Copilot work when the meeting is hosted by another organization?",
+      "expected_source_ids": [
+        "MS-COPILOT-MEETINGS"
+      ],
+      "retrieved_source_ids": [
+        "MS-COPILOT-ADMIN",
+        "MS-COPILOT-MEETINGS",
+        "MS-COPILOT-NO-TRANSCRIPT",
+        "MS-MEETING-OPTIONS"
+      ],
+      "expected_card_ids": [
+        "C03"
+      ],
+      "retrieved_card_ids": [
+        "C01",
+        "C03",
+        "C04",
+        "C05",
+        "C06"
+      ],
+      "source_hit": true,
+      "card_hit": true,
+      "expected_term_hit": true,
+      "citation_present": true,
+      "generation_done_reason": "not_applicable",
+      "generation_truncated": false,
+      "answer_truncated": false,
+      "answer_fallback_used": false,
+      "answer_method": "deterministic_diagnostic",
+      "answerable": true,
+      "answer": "Copilot is documented as unavailable in meetings hosted outside the participant's organization. [S4] [S5]"
+    },
+    {
+      "id": "Q04",
+      "query": "If the meeting option is Off, can Copilot still be used for the meeting?",
+      "expected_source_ids": [
+        "MS-COPILOT-MEETINGS",
+        "MS-MEETING-OPTIONS"
+      ],
+      "retrieved_source_ids": [
+        "MS-COPILOT-ADMIN",
+        "MS-COPILOT-MEETINGS",
+        "MS-COPILOT-NO-TRANSCRIPT",
+        "MS-MEETING-OPTIONS"
+      ],
+      "expected_card_ids": [
+        "C01",
+        "C04"
+      ],
+      "retrieved_card_ids": [
+        "C01",
+        "C02",
+        "C04",
+        "C05",
+        "C06"
+      ],
+      "source_hit": true,
+      "card_hit": true,
+      "expected_term_hit": true,
+      "citation_present": true,
+      "generation_done_reason": "not_applicable",
+      "generation_truncated": false,
+      "answer_truncated": false,
+      "answer_fallback_used": false,
+      "answer_method": "deterministic_diagnostic",
+      "answerable": true,
+      "answer": "With Allow Copilot set to Off, live Copilot is unavailable and recording/transcription are disabled; meeting-chat Copilot can still be available for chat content only. [S3] [S4]"
+    },
+    {
+      "id": "Q05",
+      "query": "Miért csak a chat tartalmát látom Copilotban a meeting után, és miért nem kérdezhetek az elhangzottakról?",
+      "expected_source_ids": [
+        "MS-COPILOT-MEETINGS"
+      ],
+      "retrieved_source_ids": [
+        "MS-COPILOT-MEETINGS",
+        "MS-COPILOT-NO-TRANSCRIPT",
+        "MS-MEETING-OPTIONS"
+      ],
+      "expected_card_ids": [
+        "C02"
+      ],
+      "retrieved_card_ids": [
+        "C01",
+        "C02",
+        "C03",
+        "C04",
+        "C06"
+      ],
+      "source_hit": true,
+      "card_hit": true,
+      "expected_term_hit": true,
+      "citation_present": true,
+      "generation_done_reason": "not_applicable",
+      "generation_truncated": false,
+      "answer_truncated": false,
+      "answer_fallback_used": false,
+      "answer_method": "curated_hungarian",
+      "answerable": true,
+      "answer": "Az értekezlet elhangzott tartalmáról utólag akkor kérdezhető a Copilot, ha rendelkezésre áll az átirat. Ha a Copilot csak az értekezlet alatt volt engedélyezve, és nem készült átirat, az utólagos meeting chatben a Copilot csak a csevegés tartalmát használja. Ha az Allow Copilot beállítás Off, a meeting chat Copilotja akkor is elérhető lehet, de csak a csevegés tartalmából dolgozik. [S1]"
+    },
+    {
+      "id": "Q06",
+      "query": "Can Facilitator be added to a Teams channel meeting?",
+      "expected_source_ids": [
+        "MS-FACILITATOR"
+      ],
+      "retrieved_source_ids": [
+        "MS-COPILOT-MEETINGS",
+        "MS-FACILITATOR",
+        "MS-MEETING-OPTIONS"
+      ],
+      "expected_card_ids": [
+        "C09"
+      ],
+      "retrieved_card_ids": [
+        "C01",
+        "C04",
+        "C09",
+        "C10",
+        "C11"
+      ],
+      "source_hit": true,
+      "card_hit": true,
+      "expected_term_hit": true,
+      "citation_present": true,
+      "generation_done_reason": "not_applicable",
+      "generation_truncated": false,
+      "answer_truncated": false,
+      "answer_fallback_used": false,
+      "answer_method": "deterministic_diagnostic",
+      "answerable": true,
+      "answer": "The reported meeting type (channel) is documented as unsupported for facilitator. [S3] [S4]"
+    },
+    {
+      "id": "Q07",
+      "query": "I am the meeting organizer on mobile. Why can't I turn Facilitator on or off?",
+      "expected_source_ids": [
+        "MS-FACILITATOR"
+      ],
+      "retrieved_source_ids": [
+        "MS-COPILOT-MEETINGS",
+        "MS-FACILITATOR",
+        "MS-MEETING-OPTIONS"
+      ],
+      "expected_card_ids": [
+        "C10"
+      ],
+      "retrieved_card_ids": [
+        "C01",
+        "C04",
+        "C09",
+        "C10",
+        "C11"
+      ],
+      "source_hit": true,
+      "card_hit": true,
+      "expected_term_hit": true,
+      "citation_present": true,
+      "generation_done_reason": "not_applicable",
+      "generation_truncated": false,
+      "answer_truncated": false,
+      "answer_fallback_used": false,
+      "answer_method": "deterministic_diagnostic",
+      "answerable": true,
+      "answer": "Mobile participants can view live notes, but turning Facilitator on or off requires Teams web or desktop. [S3] [S4]"
+    },
+    {
+      "id": "Q08",
+      "query": "Miért nem tudom a Facilitator funkciót a meeting után kérdezni, ha nem volt bekapcsolva a transzkripció?",
+      "expected_source_ids": [
+        "MS-FACILITATOR"
+      ],
+      "retrieved_source_ids": [
+        "MS-COPILOT-MEETINGS",
+        "MS-FACILITATOR",
+        "MS-MEETING-OPTIONS"
+      ],
+      "expected_card_ids": [
+        "C11"
+      ],
+      "retrieved_card_ids": [
+        "C01",
+        "C02",
+        "C04",
+        "C10",
+        "C11"
+      ],
+      "source_hit": true,
+      "card_hit": true,
+      "expected_term_hit": true,
+      "citation_present": true,
+      "generation_done_reason": "not_applicable",
+      "generation_truncated": false,
+      "answer_truncated": false,
+      "answer_fallback_used": false,
+      "answer_method": "curated_hungarian",
+      "answerable": true,
+      "answer": "A Facilitator csak akkor tud az értekezlet után az elhangzottakról válaszolni, ha a transzkripciót az értekezlet előtt vagy közben bekapcsolták. A jegyzetek megjelenése néhány percet is igénybe vehet, mert az átirat alapján készülnek. [S2]"
+    },
+    {
+      "id": "Q09",
+      "query": "Facilitator did not find the agenda while only the organizer had joined. Is that expected?",
+      "expected_source_ids": [
+        "MS-FACILITATOR"
+      ],
+      "retrieved_source_ids": [
+        "MS-COPILOT-MEETINGS",
+        "MS-FACILITATOR",
+        "MS-MEETING-OPTIONS"
+      ],
+      "expected_card_ids": [
+        "C12"
+      ],
+      "retrieved_card_ids": [
+        "C01",
+        "C04",
+        "C09",
+        "C11",
+        "C12"
+      ],
+      "source_hit": true,
+      "card_hit": true,
+      "expected_term_hit": true,
+      "citation_present": true,
+      "generation_done_reason": "not_applicable",
+      "generation_truncated": false,
+      "answer_truncated": false,
+      "answer_fallback_used": false,
+      "answer_method": "deterministic_diagnostic",
+      "answerable": true,
+      "answer": "Facilitator looks for an agenda in the meeting description or Loop meeting notes. If only the organizer has joined, it cannot read the organizer's copy of the meeting invite; the agenda may become available after a non-organizer joins. It also cannot read encrypted or sensitivity-labeled invite or notes content. [S2] [S3]"
+    },
+    {
+      "id": "Q10",
+      "query": "Do I need a Microsoft Copilot license to add Facilitator to a scheduled meeting?",
+      "expected_source_ids": [
+        "MS-FACILITATOR"
+      ],
+      "retrieved_source_ids": [
+        "MS-COPILOT-MEETINGS",
+        "MS-FACILITATOR",
+        "MS-MEETING-OPTIONS"
+      ],
+      "expected_card_ids": [
+        "C09"
+      ],
+      "retrieved_card_ids": [
+        "C01",
+        "C04",
+        "C09",
+        "C10",
+        "C11"
+      ],
+      "source_hit": true,
+      "card_hit": true,
+      "expected_term_hit": true,
+      "citation_present": true,
+      "generation_done_reason": "not_applicable",
+      "generation_truncated": false,
+      "answer_truncated": false,
+      "answer_fallback_used": false,
+      "answer_method": "deterministic_diagnostic",
+      "answerable": true,
+      "answer": "A Microsoft Copilot license is required to add or turn on Facilitator. Ask an administrator to confirm that it is assigned. [S2] [S3]"
+    },
+    {
+      "id": "Q11",
+      "query": "Támogatott az Interpreter egy Teams-webináriumon?",
+      "expected_source_ids": [
+        "MS-INTERPRETER"
+      ],
+      "retrieved_source_ids": [
+        "MS-INTERPRETER",
+        "MS-INTERPRETER-ADMIN"
+      ],
+      "expected_card_ids": [
+        "C13"
+      ],
+      "retrieved_card_ids": [
+        "C13",
+        "C14",
+        "C16",
+        "C17",
+        "C18"
+      ],
+      "source_hit": true,
+      "card_hit": true,
+      "expected_term_hit": true,
+      "citation_present": true,
+      "generation_done_reason": "not_applicable",
+      "generation_truncated": false,
+      "answer_truncated": false,
+      "answer_fallback_used": false,
+      "answer_method": "curated_hungarian",
+      "answerable": true,
+      "answer": "Az Interpreter jelenleg nem támogatott ad hoc értekezleteken, saját perifériákat csatlakoztató Teams Rooms-rendszerrel tartott értekezleteken, town hallokon, webináriumokon vagy Teams Free értekezleteken. Először az értekezlet típusát és az eszközbeállítást ellenőrizd. [S1]"
+    },
+    {
+      "id": "Q12",
+      "query": "Can Interpreter translate a PSTN phone call?",
+      "expected_source_ids": [
+        "MS-INTERPRETER"
+      ],
+      "retrieved_source_ids": [
+        "MS-INTERPRETER"
+      ],
+      "expected_card_ids": [
+        "C14"
+      ],
+      "retrieved_card_ids": [
+        "C13",
+        "C14",
+        "C15",
+        "C16",
+        "C18"
+      ],
+      "source_hit": true,
+      "card_hit": true,
+      "expected_term_hit": true,
+      "citation_present": true,
+      "generation_done_reason": "not_applicable",
+      "generation_truncated": false,
+      "answer_truncated": false,
+      "answer_fallback_used": false,
+      "answer_method": "deterministic_diagnostic",
+      "answerable": true,
+      "answer": "Interpreter is not supported in PSTN calls. [S1] [S2]"
+    },
+    {
+      "id": "Q13",
+      "query": "Which languages can Interpreter translate into in a Teams meeting?",
+      "expected_source_ids": [
+        "MS-INTERPRETER"
+      ],
+      "retrieved_source_ids": [
+        "MS-INTERPRETER",
+        "MS-INTERPRETER-ADMIN"
+      ],
+      "expected_card_ids": [
+        "C15"
+      ],
+      "retrieved_card_ids": [
+        "C13",
+        "C14",
+        "C15",
+        "C16",
+        "C17"
+      ],
+      "source_hit": true,
+      "card_hit": true,
+      "expected_term_hit": true,
+      "citation_present": true,
+      "generation_done_reason": "stop",
+      "generation_truncated": false,
+      "answer_truncated": false,
+      "answer_fallback_used": true,
+      "answer_method": "evidence_fallback",
+      "answerable": true,
+      "answer": "The Interpreter article lists English, Spanish, Portuguese, Japanese, Simplified Chinese (Mandarin), Italian, German, French, Korean, and Taiwanese as supported interpretation output languages. Some spoken languages may be recognized without guaranteed interpretation accuracy. [S1]"
+    },
+    {
+      "id": "Q14",
+      "query": "What should an administrator check if a user cannot access Interpreter because of licensing?",
+      "expected_source_ids": [
+        "MS-INTERPRETER-ADMIN"
+      ],
+      "retrieved_source_ids": [
+        "MS-INTERPRETER",
+        "MS-INTERPRETER-ADMIN"
+      ],
+      "expected_card_ids": [
+        "C17"
+      ],
+      "retrieved_card_ids": [
+        "C13",
+        "C15",
+        "C16",
+        "C17",
+        "C18"
+      ],
+      "source_hit": true,
+      "card_hit": true,
+      "expected_term_hit": true,
+      "citation_present": true,
+      "generation_done_reason": "not_applicable",
+      "generation_truncated": false,
+      "answer_truncated": false,
+      "answer_fallback_used": false,
+      "answer_method": "deterministic_diagnostic",
+      "answerable": true,
+      "answer": "Ask an administrator to verify an eligible Microsoft 365 base license and Teams license, plus a Copilot license. For Teams Rooms devices, verify the Teams Rooms Pro license path instead of the Copilot license. Copilot and Teams Rooms Pro include 20 interpretation hours per user per month; additional access depends on available capacity. [S1]"
+    },
+    {
+      "id": "Q15",
+      "query": "Az Interpreter lefordított átirata és hangja benne marad a meeting felvételében a meeting után?",
+      "expected_source_ids": [
+        "MS-INTERPRETER"
+      ],
+      "retrieved_source_ids": [
+        "MS-INTERPRETER"
+      ],
+      "expected_card_ids": [
+        "C16"
+      ],
+      "retrieved_card_ids": [
+        "C13",
+        "C14",
+        "C15",
+        "C16",
+        "C18"
+      ],
+      "source_hit": true,
+      "card_hit": true,
+      "expected_term_hit": true,
+      "citation_present": true,
+      "generation_done_reason": "not_applicable",
+      "generation_truncated": false,
+      "answer_truncated": false,
+      "answer_fallback_used": false,
+      "answer_method": "curated_hungarian",
+      "answerable": true,
+      "answer": "A Teams-értekezlet felvétele az eredeti hangot tartalmazza, nem a tolmácsolt hangot. A lefordított átirat csak élőben érhető el; az értekezlet után az átirat az eredeti nyelven jelenik meg. Gyors beszéd, átfedő megszólalások, nevek és szakkifejezések pontatlanságot okozhatnak. [S2]"
+    }
+  ]
+}
