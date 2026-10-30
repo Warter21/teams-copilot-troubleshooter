@@ -15,7 +15,7 @@ The latest supplied 15-question run reports 100% expected-source, expected-card,
 | --- | --- | --- |
 | C01 | Clarified | Distinguishes all three meeting choices, transcription requirements, and chat-only behavior when no transcript is available or the meeting option is Off. |
 | C02 | Clarified | States the transcript requirement for spoken content and the chat-only behavior for both `Only during the meeting` without a transcript and `Off`. |
-| C03 | Verified; wording improved | Keeps the documented restriction for meetings hosted outside the participant's organization. |
+| C03 | Verified | Keeps the documented restriction for meetings hosted outside the participant's organization. |
 | C04 | Verified | Correctly describes the meeting option and Facilitator dependency. |
 | C05 | Clarified | Lists the four current policy values and explains that `On with saved transcript required` is enforced; the Hungarian version now includes the same policy labels and behavior. |
 | C06 | Clarified | States that organizer options and organization policy determine availability, and includes multi-tenant users treated as external. |
@@ -24,7 +24,7 @@ The latest supplied 15-question run reports 100% expected-source, expected-card,
 | C09 | Verified | Correctly states the Copilot license and supported meeting-type limits for Facilitator. |
 | C10 | Verified | Correctly states the role and web/desktop requirements for toggling Facilitator, and what mobile participants can view. |
 | C11 | Verified | Correctly states the transcription prerequisite for post-meeting Facilitator prompts. |
-| C12 | Verified; Hungarian wording improved | Correctly describes agenda discovery, the organizer-only join case, and protected invite/notes content. |
+| C12 | Verified | Correctly describes agenda discovery, the organizer-only join case, and protected invite/notes content. |
 | C13 | Clarified | Removed duplicate webinar wording and aligned the Hungarian wording for Teams Rooms with the personal-device/peripheral limitation. |
 | C14 | Verified | Correctly limits call support to one-to-one Teams-to-Teams VoIP and excludes PSTN calls. |
 | C15 | Clarified | Keeps the official output-language list and preserves `Taiwanese` as Microsoft's language label so the Hungarian wording does not imply a vague nationality adjective. |
