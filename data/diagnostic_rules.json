@@ -1,0 +1,28 @@
+{
+  "facilitator": {
+    "unsupported_meeting_types": ["channel", "instant", "call"],
+    "copilot_license_check": true,
+    "post_meeting_transcript_check": true,
+    "admin_policy_check": true,
+    "source_ids": ["MS-FACILITATOR", "MS-COPILOT-ADMIN"]
+  },
+  "meeting_copilot": {
+    "external_host_check": true,
+    "post_meeting_transcript_check": true,
+    "meeting_option_check": true,
+    "admin_policy_check": true,
+    "source_ids": ["MS-COPILOT-MEETINGS", "MS-MEETING-OPTIONS", "MS-COPILOT-ADMIN"]
+  },
+  "recap": {
+    "scheduled_meeting_check": true,
+    "transcript_or_no_transcript_recap_check": true,
+    "license_check": true,
+    "source_ids": ["MS-COPILOT-MEETINGS", "MS-INTELLIGENT-RECAP-NO-TRANSCRIPT", "MS-MEETING-RECAP-APP"]
+  },
+  "interpreter": {
+    "unsupported_meeting_types": ["adhoc", "teams_rooms_personal_device", "town_hall", "webinar", "teams_free"],
+    "pstn_not_supported": true,
+    "license_admin_check": true,
+    "source_ids": ["MS-INTERPRETER", "MS-INTERPRETER-ADMIN"]
+  }
+}
